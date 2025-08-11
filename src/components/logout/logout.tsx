@@ -1,0 +1,36 @@
+import { MaterialIcons } from "@expo/vector-icons";
+import { router } from "expo-router";
+
+import React from "react";
+import { StyleSheet, TouchableOpacity } from "react-native";
+
+export default function FloatingLogoutButton({}) {
+  function handleLogout() {
+    router.navigate("/");
+  }
+
+  return (
+    <TouchableOpacity style={styles.button} onPress={handleLogout}>
+      <MaterialIcons name="power-settings-new" size={24} color="white" />
+    </TouchableOpacity>
+  );
+}
+
+const styles = StyleSheet.create({
+  button: {
+    position: "absolute",
+    bottom: 20,
+    right: 20,
+    backgroundColor: "red",
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    elevation: 5,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.5,
+  },
+});
