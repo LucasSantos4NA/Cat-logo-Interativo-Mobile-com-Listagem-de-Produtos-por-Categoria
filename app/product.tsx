@@ -1,7 +1,7 @@
 import FloatingLogoutButton from "@/src/components/logout/logout";
-import { feminino } from "@/src/screens/product/feminino";
-import { masculino } from "@/src/screens/product/masculino";
+import { masculino } from "@/src/screens/product/men";
 import { RenderTabBar } from "@/src/screens/product/render";
+import { feminino } from "@/src/screens/product/woman";
 import { Stack } from "expo-router";
 import { useState } from "react";
 import { useWindowDimensions } from "react-native";
