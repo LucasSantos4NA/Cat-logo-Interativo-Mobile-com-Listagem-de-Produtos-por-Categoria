@@ -1,5 +1,3 @@
-Claro! Aqui está um README completo para o seu projeto de aplicativo de e-commerce mobile em React Native com Expo. Pode copiar e usar diretamente:
-
 ```markdown
 # 🛒 Aplicativo de E-commerce Mobile
 
