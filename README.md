@@ -55,7 +55,7 @@ src/
 
 1. Clone o repositório:
 ```
-git clone https://github.com/LucasSantos4NA/Cat-logo-Interativo-Mobile-com-Listagem-de-Produtos-por-Categoria.git
+git clone https://github.com/LucasSantos4NA/Listagem-de-Produtos-por-Categoria.git
 ```
 
 2. Navegue até a pasta do projeto e instale as dependências:
