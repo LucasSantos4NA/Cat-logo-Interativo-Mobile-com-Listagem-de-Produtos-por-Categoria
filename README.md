@@ -1,50 +1,103 @@
-# Welcome to your Expo app 👋
+Claro! Aqui está um README completo para o seu projeto de aplicativo de e-commerce mobile em React Native com Expo. Pode copiar e usar diretamente:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+```markdown
+# 🛒 Aplicativo de E-commerce Mobile
 
-## Get started
+---
 
-1. Install dependencies
+## 📖 Descrição
 
-   ```bash
-   npm install
-   ```
+Este projeto é um aplicativo de e-commerce desenvolvido em React Native (Expo), com foco na integração de APIs REST e na organização do código seguindo boas práticas. 
 
-2. Start the app
+O aplicativo permite ao usuário:
+- Realizar login com validação de campos e autenticação simulada;
+- Navegar por produtos organizados em abas (masculino e feminino);
+- Visualizar detalhes completos de cada produto (nome, imagem, descrição, preço e desconto);
+- Fazer logout através de um botão flutuante funcional.
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Funcionalidades
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Tela de login com validação de campos obrigatórios e autenticação simulada  
+- Listagem de produtos usando abas para separar masculino e feminino  
+- Consumo de API REST utilizando Axios  
+- Tela de detalhes do produto com informações completas  
+- Botão flutuante para logout funcional  
+- Layout responsivo e agradável visualmente  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠 Tecnologias Utilizadas
 
-```bash
-npm run reset-project
+- React Native com Expo  
+- Axios para consumo de API REST  
+- Redux Toolkit para gerenciamento de estado global  
+- React Native Tab View para navegação via abas  
+- Expo Linear Gradient para efeitos visuais  
+
+---
+
+## 📂 Estrutura de Pastas
+
+
+src/
+├── api/                 # Consumo de APIs externas
+├── components/          # Componentes reutilizáveis
+├── screens/             # Telas da aplicação
+│   ├── home-screen/
+│   ├── product/
+│   └── details/
+└── 
+
+---
+```
+## 📦 Como Executar o Projeto
+
+1. Clone o repositório:
+```
+git clone https://github.com/LucasSantos4NA/Cat-logo-Interativo-Mobile-com-Listagem-de-Produtos-por-Categoria.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Navegue até a pasta do projeto e instale as dependências:
+```
+npm install
+```
 
-## Learn more
+3. Inicie o projeto:
+```
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 👤 Credenciais de Teste
 
-## Join the community
+As credenciais para login estão definidas no arquivo:
+```
+src/constants/user-credentials.ts
+```
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ℹ️ Detalhes Adicionais
+
+- API usada: DummyJSON (apenas para demonstração)  
+- Botão vermelho no canto inferior direito: Logout funcional  
+
+---
+
+## 📸 Capturas de Tela
+
+| Tela de Login 🔐 | Lista de Produtos Masculinos 🛍 | Lista de Produtos Femininos 👗 | Detalhes do Produto 📄 |
+|-----------------|--------------------------------|-------------------------------|------------------------|
+| ![login](https://github.com/user-attachments/assets/74515c76-23d2-4ae6-a3e3-01eff4aedd28) | ![produtos-masculinos](https://github.com/user-attachments/assets/52a2f96c-f157-40d1-b183-145bd53cdab4) | ![feminino](https://github.com/user-attachments/assets/26936453-d141-44ee-b850-c0a143ffdf59) | ![detalhes](https://github.com/user-attachments/assets/28565112-05a6-4d15-8fdc-79bd1a5fcd5a) |
+
+---
+
+## 📝 Observações Finais
+
+Este projeto é uma aplicação didática desenvolvida para reforçar conceitos de React Native, consumo de APIs, gerenciamento de estado com Redux e navegação.
+
+---
